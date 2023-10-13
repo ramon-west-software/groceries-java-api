@@ -1,0 +1,14 @@
+com/ramonwest/groceriesapi/data/entity/StorageArea.class
+com/ramonwest/groceriesapi/data/entity/Category.class
+com/ramonwest/groceriesapi/service/UserServiceImplementation.class
+com/ramonwest/groceriesapi/GroceriesApiApplication.class
+com/ramonwest/groceriesapi/data/entity/Item.class
+com/ramonwest/groceriesapi/data/repository/UserRepository.class
+com/ramonwest/groceriesapi/data/entity/User.class
+com/ramonwest/groceriesapi/service/GroceriesUserDetailService.class
+com/ramonwest/groceriesapi/data/entity/CategoryGroceryItem.class
+com/ramonwest/groceriesapi/controller/UserController.class
+com/ramonwest/groceriesapi/controller/HomeControler.class
+com/ramonwest/groceriesapi/service/UserService.class
+com/ramonwest/groceriesapi/data/entity/StorageAreaCategory.class
+com/ramonwest/groceriesapi/data/entity/UserStorageArea.class
