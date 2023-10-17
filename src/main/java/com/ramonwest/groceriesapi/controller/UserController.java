@@ -19,14 +19,14 @@ public class UserController {
 
     // Fetch user data by user_id
     @GetMapping("/users/{id}")
-    public ResponseEntity<User> getUserById(@PathVariable Long id) {
+    public User getUserById(@PathVariable Long id) {
         User user = userService.getUser(id);
 
         if (user != null) {
-            return new ResponseEntity<>(user, HttpStatus.OK);
+            return user;
         } else {
             // route to new user sign up / retry login message
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+            return new User();
         }
     }
 
