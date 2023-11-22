@@ -17,24 +17,4 @@ public class UserStorageArea {
     @ManyToOne
     @JoinColumn(name = "storage_id")
     private StorageArea storageArea;
-//
-//    public Long getUserStorageAreaId() {
-//        return userStorageAreaId;
-//    }
-//
-//    public User getUser() {
-//        return user;
-//    }
-//
-//    public void setUser(User user) {
-//        this.user = user;
-//    }
-//
-//    public StorageArea getStorageArea() {
-//        return storageArea;
-//    }
-//
-//    public void setStorageArea(StorageArea storageArea) {
-//        this.storageArea = storageArea;
-//    }
 }

@@ -14,7 +14,7 @@ public class StorageArea {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "storage_id")
-    private long storageId;
+    private long id;
 
     @Column(name = "storage_name")
     private String name;
@@ -31,8 +31,8 @@ public class StorageArea {
     private List<Category> categories = new ArrayList<>();
 
 
-    public long getStorageId() {
-        return storageId;
+    public long getId() {
+        return id;
     }
 
     public String getName() {

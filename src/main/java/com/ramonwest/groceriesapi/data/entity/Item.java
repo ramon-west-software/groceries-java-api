@@ -10,7 +10,7 @@ public class Item {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "grocery_item_id")
-    private Long itemId;
+    private Long id;
 
     @Column(name = "name")
     private String name;
@@ -21,8 +21,8 @@ public class Item {
     @Column(name = "item_duration")
     private int duration;
 
-    public Long getItemId() {
-        return itemId;
+    public Long getId() {
+        return id;
     }
 
     public String getName() {
